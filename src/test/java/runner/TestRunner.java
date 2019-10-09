@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 
 @CucumberOptions(features = "src\\test\\java\\features", glue = { "stepDefinition" }, plugin = { "pretty",
 		"json:Cucu_Reports/Cucumber.json", "junit:Cucu_Reports/Cucumber.xml",
-		"html:Cucu_Reports/cucumber-reports" }, monochrome = true, tags = { "@smoke" })
+		"html:Cucu_Reports/cucumber-reports" }, monochrome = true, tags = { "" })
 
 public class TestRunner {
 
