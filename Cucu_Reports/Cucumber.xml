@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="121.031195">
+<testcase classname="Cloud for customer application" name="validate gema application user login" time="18.929575">
+<system-out><![CDATA[Given user with a valid gema "shafeer.shaik@ey.com" and "Welcome@2".........passed
+When user enters username and password in the application...................passed
+When user clicks on signin..................................................passed
+Then user login should be "Success" and welcome displayed...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Cloud for customer application" name="validate gema application user login 2" time="16.944067">
+<system-out><![CDATA[Given user with a valid gema "shafeer.shaik@ey.com" and "Welcome@2".........passed
+When user enters username and password in the application...................passed
+When user clicks on signin..................................................passed
+Then user login should be "Success" and welcome displayed...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Cloud for customer application" name="create a camapign in GEMA" time="85.157553">
+<system-out><![CDATA[Given user enters valid gema user name and password.........................passed
+When fill all the required gema campaign creation form......................passed
+And click on create a campaign..............................................passed
+Then new campaign created successfully......................................passed
+When user clicks on logout..................................................passed
+Then user should be logged out from application.............................passed
+]]></system-out>
+</testcase>
+</testsuite>

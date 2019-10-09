@@ -1,0 +1,322 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-04T18:01:14.251Z",
+        "line": 13,
+        "name": "validate gema application user login",
+        "description": "",
+        "id": "cloud-for-customer-application;validate-gema-application-user-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13672451100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user with a valid gema \"shafeer.shaik@ey.com\" and \"Welcome@2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shafeer.shaik@ey.com",
+                  "offset": 24
+                },
+                {
+                  "val": "Welcome@2",
+                  "offset": 51
+                }
+              ],
+              "location": "CampaignCreation_POM_TestCase.user_with_a_valid_gema_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password in the application",
+            "match": {
+              "location": "CampaignCreation_POM_TestCase.login_gema()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3177010400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on signin",
+            "match": {
+              "location": "CampaignCreation_POM_TestCase.user_clicks_on_signin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2076701300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user login should be \"Success\" and welcome displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Success",
+                  "offset": 22
+                }
+              ],
+              "location": "CampaignCreation_POM_TestCase.closeBrowser(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gema_all_tests"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@gema_login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-04T18:01:33.183Z",
+        "line": 14,
+        "name": "validate gema application user login",
+        "description": "",
+        "id": "cloud-for-customer-application;validate-gema-application-user-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11226181600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user with a valid gema \"shafeer.shaik@ey.com\" and \"Welcome@2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shafeer.shaik@ey.com",
+                  "offset": 24
+                },
+                {
+                  "val": "Welcome@2",
+                  "offset": 51
+                }
+              ],
+              "location": "CampaignCreation_POM_TestCase.user_with_a_valid_gema_username_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 131100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password in the application",
+            "match": {
+              "location": "CampaignCreation_POM_TestCase.login_gema()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3582355500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on signin",
+            "match": {
+              "location": "CampaignCreation_POM_TestCase.user_clicks_on_signin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2135061800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user login should be \"Success\" and welcome displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Success",
+                  "offset": 22
+                }
+              ],
+              "location": "CampaignCreation_POM_TestCase.closeBrowser(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gema_all_tests"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@gema_login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-10-04T18:01:50.128Z",
+        "line": 17,
+        "name": "create a camapign in GEMA",
+        "description": "",
+        "id": "cloud-for-customer-application;create-a-camapign-in-gema",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12878486200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters valid gema user name and password",
+            "match": {
+              "location": "GEMA_CampaignCreation_U_FrameWork.launchApplication1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3664993500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "fill all the required gema campaign creation form",
+            "match": {
+              "location": "GEMA_CampaignCreation_U_FrameWork.login_gema1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68613461600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on create a campaign",
+            "match": {
+              "location": "GEMA_CampaignCreation_U_FrameWork.clickNewCamp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "new campaign created successfully",
+            "match": {
+              "location": "GEMA_CampaignCreation_U_FrameWork.new_campaign_created_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on logout",
+            "match": {
+              "location": "GEMA_CampaignCreation_U_FrameWork.user_clicks_on_logout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should be logged out from application",
+            "match": {
+              "location": "GEMA_CampaignCreation_U_FrameWork.user_should_be_logged_out_from_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gema_all_tests"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@gema_camp_creation"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Cloud for customer application",
+    "description": "",
+    "id": "cloud-for-customer-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/contactcreation.feature",
+    "tags": [
+      {
+        "name": "@gema_all_tests",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 17
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 29
+        }
+      }
+    ]
+  }
+]

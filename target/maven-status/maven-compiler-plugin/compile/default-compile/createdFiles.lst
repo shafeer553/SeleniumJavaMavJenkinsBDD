@@ -1,0 +1,10 @@
+excelUtility\ExcelSample.class
+pageFactoryGEMA\pageObjectModel_CampaiginCreatio.class
+logger\LoggerUtility.class
+supportFiles\TakeAScreenShot.class
+loggerRootTest\loggerFile.class
+supportFiles\GetPropertiesObj.class
+pageFactoryGEMA\PF_GEMA_CampaignCreation.class
+TestSeleMavenNew\TestSeleMavenNew\App.class
+excelUtility\ExcelDataConfig.class
+logger\consoleLogger.class

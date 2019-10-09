@@ -1,0 +1,7 @@
+stepDefinition\GEMA_Login_ExcelData.class
+stepDefinition\GEMA_CampaignCreation_U_FrameWork.class
+stepDefinition\CampaignCreation_POM_TestCase.class
+TestSeleMavenNew\TestSeleMavenNew\AppTest.class
+stepDefinition\Grid_Demo_GEMA.class
+runner\TestRunner.class
+stepDefinition\firstCucuTest.class
